@@ -1,15 +1,18 @@
 import numpy as np
-from support import isNumber
+from support import is_number
 
-@isNumber
+
+@is_number
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
-@isNumber
+
+@is_number
 def relu(x):
     return np.maximum(0, x)
 
-@isNumber
+
+@is_number
 def elu(x, alpha=0.01):
     return np.where(x < 0, alpha * (np.exp(x) - 1), x)
 
