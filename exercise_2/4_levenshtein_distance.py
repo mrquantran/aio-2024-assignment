@@ -23,6 +23,6 @@ def levenshtein_distance(source, target):
     return D[-1][-1]
 
 
-assert levenshtein_distance("hi", "hello") == 4.0
+assert levenshtein_distance("hi", "hello") == 4
 
 print(levenshtein_distance("hola", "hello")) # 3.0
