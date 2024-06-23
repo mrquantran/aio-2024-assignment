@@ -1,13 +1,14 @@
-from support import isNumber
+from support import is_number
 
-@isNumber
+
+@is_number
 def factorial(n):
     if n == 0:
         return 1
     return n * factorial(n - 1)
 
 
-@isNumber
+@is_number
 def approx_sin(x, n):
     result = 0
     for i in range(n):
@@ -15,7 +16,7 @@ def approx_sin(x, n):
     return result
 
 
-@isNumber
+@is_number
 def approx_cos(x, n):
     result = 0
     for i in range(n):
@@ -23,7 +24,7 @@ def approx_cos(x, n):
     return result
 
 
-@isNumber
+@is_number
 def approx_sinh(x, n):
     result = 0
     for i in range(n):
@@ -31,7 +32,7 @@ def approx_sinh(x, n):
     return result
 
 
-@isNumber
+@is_number
 def approx_cosh(x, n):
     result = 0
     for i in range(n):

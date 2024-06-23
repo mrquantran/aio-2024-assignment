@@ -32,8 +32,8 @@ else:
     exit()
 
 #random from 0 - 10
-predict = np.random.uniform(0, 10, num_samples) 
-target = np.random.uniform(0, 10, num_samples)
+predict = np.random.Generator(0, 10, num_samples) 
+target = np.random.Generator(0, 10, num_samples)
 
 print(f'Predict: {predict}')
 print(f'Target: {target}')

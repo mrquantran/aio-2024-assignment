@@ -1,6 +1,7 @@
-from support import isNumber
+from support import is_number
 
-@isNumber
+
+@is_number
 def mean_difference_of_n_root(y, y_hat, n, p=1):
     return (y ** (1 / n) - y_hat ** (1 / n)) ** p
 
