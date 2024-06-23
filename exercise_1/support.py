@@ -1,4 +1,4 @@
-def isNumber(func):
+def is_number(func):
     def wrapper(*args, **kwargs):
         for arg, value in kwargs.items():
             if not isinstance(value, (int, float)):
@@ -7,7 +7,7 @@ def isNumber(func):
     return wrapper
 
 
-def isGreaterThan0(func):
+def is_greater_than_0(func):
     def wrapper(*args, **kwargs):
         for arg, value in kwargs.items():
             if value < 0:
