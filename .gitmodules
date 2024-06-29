@@ -1,0 +1,3 @@
+[submodule "yolov10_detection"]
+	path = yolov10_detection
+	url = https://github.com/mrquantran/yolov10_detection.git
