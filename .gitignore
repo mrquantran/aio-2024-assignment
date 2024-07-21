@@ -63,6 +63,6 @@ target/
 
 # Notebook Checkpoints
 .ipynb_checkpoints/
-*.png
 
 *.h5
+
